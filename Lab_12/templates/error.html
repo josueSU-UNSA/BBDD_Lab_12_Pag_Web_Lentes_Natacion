@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <title>Error ingreso</title>
+ 
+ 
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/css/style.css">
+ 
+ 
+</head>
+ 
+<body>
+ 
+    <div class="container">
+        <div class="header">
+            <h3 class="text-muted">Error al intentar ingresar a su cuenta</h3>
+            <nav>
+                <ul class="nav nav-pills pull-right">
+                    <li role="presentation" ><a href="/">Inicio</a></li>
+                    <li role="presentation" class="active"><a href="/showSignin">&nbsp;Iniciar Sesión</a></li>
+                    <li role="presentation" ><a href="/showSignUp">&nbsp;Registrarse</a></li>
+                </ul>
+            </nav>
+            
+        </div>
+ 
+        <div class="jumbotron">
+            <h1>{{error}}</h1>
+        </div>
+ 
+ 
+ 
+        <footer class="footer">
+            <p>&copy; Ciencia de la Computación- UNSA</p>
+        </footer>
+ 
+    </div>
+</body>
+ 
+</html>
